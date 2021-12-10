@@ -1,10 +1,11 @@
 import functions
 
 a = float(input("Enter a real number: "))
-b = float(input("Enter a real number: "))
+b = float(input("Enter a real number (not zero): "))
 
-print("+ ------>" , functions.sum(a,b))
-print("* ------>" , functions.multiply(a,b))
-print("/ ------>" , functions.divide(a,b))
-print("modulo ------>" , functions.mod(a,b))
-print("squared ------>", a ,"^ 2 =" , functions.sq(a), "and", b ,"^ 2 =" , functions.sq(b))
+print(
+"+ ------>" , functions.sum(a,b),
+"\n* ------>" , functions.multiply(a,b),
+"\n/ ------>" , functions.divide(a,b),
+"\nmodulo ------>" , functions.mod(a,b),
+"\nsquared ------>", a ,"^ 2 =" , functions.sq(a), "and", b ,"^ 2 =" , functions.sq(b))
