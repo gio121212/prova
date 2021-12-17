@@ -17,7 +17,7 @@ else:
 
 
 
-print("Finchè hai voglia ti converto in binario \nun intero positivo che mi dai.")
+print("\nFinchè hai voglia ti converto in binario \nun intero positivo che mi dai.")
 while True: 
   a = int(input("Dammi un intero positivo:")) 
 
@@ -29,9 +29,10 @@ while True:
     bin_list.reverse()
     a = b
   
+  string = ' '.join(map(str, bin_list))
+  
   print("Nel sistema binario il tuo intero è:")
-  for i in range(0,len(bin_list)):
-    print(bin_list[i])
+  print(string)
 
   a = str(input("Vuoi uscire? y/n\n"))
   if a == 'y':
