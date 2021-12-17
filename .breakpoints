@@ -8,6 +8,14 @@
         "index": 0
       }
     ],
+    "src/lib/loops.py": [
+      {
+        "id": "5d75bc9c-22c6-4e72-99ff-d0d17be5e212",
+        "line": 32,
+        "version": 1558,
+        "index": 465
+      }
+    ],
     "src/lib/main.py": [
       {
         "id": "026abbb4-a456-4995-bfc7-ec8d08ebfe29",

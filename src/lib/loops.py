@@ -29,10 +29,11 @@ while True:
     bin_list.reverse()
     a = b
   
-  string = ' '.join(map(str, bin_list))
   
   print("Nel sistema binario il tuo intero è:")
-  print(string)
+  for i in bin_list:
+    print(i, end= " ")
+  print("\n")
 
   a = str(input("Vuoi uscire? y/n\n"))
   if a == 'y':
